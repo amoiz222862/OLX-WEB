@@ -1,0 +1,48 @@
+body{
+    background-image: url(https://www.xmple.com/wallpaper/linear-green-yellow-gradient-1920x1080-c2-90ee90-ffff00-a-60-f-14.svg ) ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    background-blend-mode: multiply;
+    background-color: rgba(3, 3, 3, 0.9);
+    
+}
+
+.main{
+    margin-top: 50px;
+}
+
+.guitar{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.para{
+    display: flex;
+    justify-content: space-around;
+    padding-top:10px ;
+    flex-wrap: wrap;
+}
+
+.contact{
+    width: 30%;
+    margin: 0 auto;
+}
+
+.contact > div{
+    text-align: center;
+    border: 2px solid;
+    margin: 10px 0px;
+    padding: 10px 0px;
+    border-radius: 5px;
+}
+
+  .contact > div > a{
+    text-decoration: none;
+    color: black;
+}
+
+.contact > div:hover{
+    border: 4px solid white;
+}
